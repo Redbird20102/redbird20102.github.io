@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Redbird2010</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a0000 0%, #3d0000 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #cc0000 0%, #ff0000 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(255, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: rgba(255, 0, 0, 0.1);
+            border-left: 5px solid #ff0000;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .section h2 {
+            color: #ff6b6b;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .info-item {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .info-item strong {
+            color: #ff6b6b;
+        }
+
+        .roles {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .role-tag {
+            background: #ff0000;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
+        }
+
+        .links-section {
+            margin-top: 30px;
+        }
+
+        .link-item {
+            margin: 15px 0;
+        }
+
+        .link-item a {
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .link-item a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+            transform: translateX(5px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            border-top: 2px solid #ff0000;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            .section {
+                padding: 20px;
+            }
+            .roles {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>REDBIRD2010</h1>
+        <p>Technician | Creator | Audio Engineer</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>👤 About Me</h2>
+            <div class="info-item">
+                <strong>Born:</strong> November 13, 2010
+            </div>
+            <div class="info-item">
+                <strong>My Roles:</strong>
+            </div>
+            <div class="roles">
+                <div class="role-tag">Technician</div>
+                <div class="role-tag">Lighting Operator</div>
+                <div class="role-tag">Electrician</div>
+                <div class="role-tag">Audio Engineer</div>
+                <div class="role-tag">Weather Nerd</div>
+                <div class="role-tag">Graphic Designer</div>
+                <div class="role-tag">PC Nerd</div>
+            </div>
+            <div class="info-item" style="margin-top: 25px;">
+                <strong>Notable Achievement:</strong> Created the cam program for Evan Fryberger - check him out on YouTube!
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Connect With Me</h2>
+            <div class="links-section">
+                <div class="link-item">
+                    <strong>YouTube:</strong><br>
+                    <a href="https://www.youtube.com/@Redbird2010EST" target="_blank">
+                        @Redbird2010
+                    </a>
+                </div>
+                <div class="link-item">
+                    <strong>Discord:</strong><br>
+                    <a href="https://discord.gg/UcZxhDKt" target="_blank">
+                        Join my Discord community
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Redbird2010 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
